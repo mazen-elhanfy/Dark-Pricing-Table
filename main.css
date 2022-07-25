@@ -1,0 +1,491 @@
+.parent {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 100px auto;
+}
+
+.parent>div {
+    width: calc(100% / 4);
+    height: 100%;
+    background-color: #000;
+    border: 1px solid #ddd;
+    position: relative;
+}
+
+/*start of the first article*/
+.one h2 {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.one .price {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.one .price::before {
+    content: "$";
+    font-size: 25px;
+    position: absolute;
+    left: -25%;
+    top: -25%;
+    color: #fff;
+}
+
+.one .price::after {
+    content: "/mo";
+    color: #ddd;
+    position: absolute;
+    left: 95%;
+    top: 30%;
+    font-size: 20px;
+}
+
+.one .first {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    color: #ddd;
+    border: 1px solid #dddddd7a;
+}
+
+.one .second {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    color: #ddd;
+    border: 1px solid #dddddd7a;
+    border-top-color: transparent;
+}
+
+.one .third {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    color: #ddd;
+    border: 1px solid #dddddd7a;
+    border-top-color: transparent;
+}
+
+.one .fourth {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 60%;
+    color: #ddd;
+    border: 1px solid #dddddd7a;
+    border-top-color: transparent;
+}
+
+.one .sixth {
+    width: 50%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dddddd7a;
+    position: absolute;
+    left: 25%;
+    top: 80%;
+    color: #ddd;
+    background-color: #000;
+}
+
+/*end of the first article*/
+/*start of the second article*/
+.two h2 {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.two .price {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.two .price::before {
+    content: "$";
+    font-size: 25px;
+    position: absolute;
+    left: -25%;
+    top: -25%;
+    color: #fff;
+}
+
+.two .price::after {
+    content: "/mo";
+    color: #ddd;
+    position: absolute;
+    left: 95%;
+    top: 30%;
+    font-size: 20px;
+}
+
+.two .first {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    color: #ddd;
+    border: 1px solid #dddddd7a;
+}
+
+.two .second {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    color: #ddd;
+    border: 1px solid #dddddd7a;
+    border-top-color: transparent;
+}
+
+.two .third {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    color: #ddd;
+    border: 1px solid #dddddd7a;
+    border-top-color: transparent;
+}
+
+.two .fourth {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 60%;
+    color: #ddd;
+    border: 1px solid #dddddd7a;
+    border-top-color: transparent;
+}
+
+.two .sixth {
+    width: 50%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dddddd7a;
+    position: absolute;
+    left: 25%;
+    top: 80%;
+    color: #ddd;
+    background-color: #000;
+}
+
+/*end of the second article*/
+
+/*start of the third article*/
+.three {
+    height: 120% !important;
+    background-color: dodgerblue !important;
+    top: -10%;
+}
+
+.three h2 {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.three .price {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.three .price::before {
+    content: "$";
+    font-size: 25px;
+    position: absolute;
+    left: -25%;
+    top: -25%;
+    color: #fff;
+}
+
+.three .price::after {
+    content: "/mo";
+    color: #ddd;
+    position: absolute;
+    left: 95%;
+    top: 30%;
+    font-size: 20px;
+}
+
+.three .first {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    color: #ddd;
+    border: 1px solid #dddddd7a;
+}
+
+.three .second {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    color: #ddd;
+    border: 1px solid #dddddd7a;
+    border-top-color: transparent;
+}
+
+.three .third {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    color: #ddd;
+    border: 1px solid #dddddd7a;
+    border-top-color: transparent;
+}
+
+.three .fourth {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 60%;
+    color: #ddd;
+    border: 1px solid #dddddd7a;
+    border-top-color: transparent;
+}
+
+.three .sixth {
+    width: 50%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dddddd7a;
+    position: absolute;
+    left: 25%;
+    top: 80%;
+    color: #ddd;
+    background-color: dodgerblue;
+}
+
+/*end of the third article*/
+
+/*start of the fourth article*/
+.four h2 {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.four .price {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.four .price::before {
+    content: "$";
+    font-size: 25px;
+    position: absolute;
+    left: -25%;
+    top: -25%;
+    color: #fff;
+}
+
+.four .price::after {
+    content: "/mo";
+    color: #ddd;
+    position: absolute;
+    left: 95%;
+    top: 30%;
+    font-size: 20px;
+}
+
+.four .first {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    color: #ddd;
+    border: 1px solid #dddddd7a;
+}
+
+.four .second {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    color: #ddd;
+    border: 1px solid #dddddd7a;
+    border-top-color: transparent;
+}
+
+.four .third {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    color: #ddd;
+    border: 1px solid #dddddd7a;
+    border-top-color: transparent;
+}
+
+.four .fourth {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 60%;
+    color: #ddd;
+    border: 1px solid #dddddd7a;
+    border-top-color: transparent;
+}
+
+.four .sixth {
+    width: 50%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dddddd7a;
+    position: absolute;
+    left: 25%;
+    top: 80%;
+    color: #ddd;
+    background-color: #000;
+}
+
+/*end of the fourth article*/
